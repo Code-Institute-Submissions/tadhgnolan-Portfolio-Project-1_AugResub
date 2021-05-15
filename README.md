@@ -1,59 +1,66 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Sup of Gaming**
+### HTML + CSS Milestone Project - Code Institute - Tadhg Nolan.
 
-Welcome USER_NAME,
+The owner requires a gaming review and opinion website which will also link to their YouTube channel.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+The purpose is to promote video game opinions, articles, written and video reviews in an easy to interpret format. 
+___
+### Showcase
 
-## Gitpod Reminders
+A deployed link to the website can be found [here].
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User Stories
 
-`python3 -m http.server`
+End users will be consumers looking for opinions regarding the quality of video games which they may wish to purchase.
 
-A blue button should appear to click: _Make Public_,
+* As a user I would like the articles/videos to be quickly accessible with minimal presses/clicks.
 
-Another blue button should appear to click: _Open Browser_.
+* As a user I would like the stories to be readable on the go (on the bus, in a cafe etc.)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* As a user I would like to be able to access new articles first and previous stories in a clearly ordered fashion.
 
-A blue button should appear to click: _Make Public_,
+* As a user I would like to have access to social media links to what the creator is working on & media that interests them or is related to the sites content. 
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Features
 
-To log into the Heroku toolbelt CLI:
+Home/landing area - This area should be welcoming with a brand or game relevant image and direct users towards the articles (Denoted by article name and related image behind text).
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Navbar - Hamburger menu for easy access on mobile devices. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+Articles - Links directly to Articles section with articles listed in chronological order.
 
-## Updates Since The Instructional Video
+Videos - Links directly to Videos section with videos displayed in chronological order.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Reviews - Links directly to Reviews section listing written video game reviews in chronological order.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+About - Gives a brief description of the  goals/intentions of the site.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Contact/Socials - Email form and social media links if users wish to contact or follow the content creator. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Existing Features
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Future Features 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Optimisation
 
 ---
+### Testing
 
-Happy coding!
+
+### Technologies Used
+
+* [HTML5](https://html.spec.whatwg.org/multipage/)
+
+* CSS3
+
+- [JQuery](https://jquery.com)
+    - The project uses **JQuery** to simplify DOM manipulation.
+- [Gitpod](https://www.gitpod.io/about/)
+	- IDE used to write and deploy code.
+ 
+### Credits
+
+### Content
+
+### Acknowledgements
