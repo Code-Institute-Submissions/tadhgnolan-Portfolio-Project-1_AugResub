@@ -31,7 +31,7 @@ body {
     filter: contrast(30%);
 }
 
-#menu-bar {
+#navbar {
     position: fixed;
     top: 5%;
     left: 50%;
@@ -64,7 +64,7 @@ body {
 }
 
 #header {
-    z-index -5;
+    z-index: -5;
 }
 
 #header-image {
@@ -75,4 +75,44 @@ body {
     height: auto;
     box-shadow: -5px 5px 5px #ff8000;
     filter: opacity(90%);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#recent-content-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    box-shadow: -5px 5px 5px #ff8000;
+    filter: opacity(90%);
+    position: relative;
+    z-index: -5;
+}
+
+#recent-content-1 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-shadow: -10px 10px 5px #003561;
+}
+
+#rc-1-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    transform: translate (-50%, -50%);
+    z-index: 2;
+    text-shadow: -10px 10px 5px #003561;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
