@@ -13,6 +13,14 @@ body {
     /* overflow: hidden; */
 }
 
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .vids {
     filter: opacity(90%);
     box-shadow: -5px 5px 5px #ff8000;
@@ -139,7 +147,7 @@ body {
 
 #article-1-title {
     position: absolute;
-    top: 10%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -147,6 +155,40 @@ body {
 }
 
 #article-1-text {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    right: 10%;
+    transform: translate (-50%, -50%);
+    z-index: 2;
+    text-shadow: -10px 10px 5px #003561;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#recent-content-2-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    box-shadow: -5px 5px 5px #ff8000;
+    filter: opacity(90%);
+    position: relative;
+    z-index: -5;
+}
+
+#recent-content-2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-shadow: -10px 10px 5px #003561;
+}
+
+#rc-2-text {
     position: absolute;
     top: 20%;
     left: 10%;
