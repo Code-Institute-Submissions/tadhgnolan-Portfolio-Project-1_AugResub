@@ -12,6 +12,23 @@ body {
     color: whitesmoke;
 }
 
+#bgvideo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translate(-50%) translate(-50%);
+    -moz-transform: translate(-50%) translate(-50%);
+    -webkit-transform: translate(-50%) translate(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(placeholder.jpg) no-repeat;
+    background-size: cover;
+}
+
 #menu {
     font-size: 130%;
     letter-spacing: 4px;
@@ -36,19 +53,16 @@ body {
     text-shadow: -10px 10px 3px #ff8000;
 }
 
-#bgvideo {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
+#header {
+    z-index -5;
+}
+
+#header-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     height: auto;
-    z-index: -100;
-    -ms-transform: translate(-50%) translate(-50%);
-    -moz-transform: translate(-50%) translate(-50%);
-    -webkit-transform: translate(-50%) translate(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(placeholder.jpg) no-repeat;
-    background-size: cover;
+    box-shadow: -5px 5px 5px #ff8000;
+    filter: opacity(90%);
 }
