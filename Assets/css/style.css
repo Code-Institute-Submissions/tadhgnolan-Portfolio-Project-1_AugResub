@@ -12,6 +12,30 @@ body {
     color: whitesmoke;
 }
 
+#menu {
+    font-size: 130%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    text-shadow: -10px 10px 3px whitesmoke;
+}
+
+.active {
+    text-shadow: -10px 10px 3px #ff8000;
+}
+
 #bgvideo {
     position: fixed;
     top: 50%;
