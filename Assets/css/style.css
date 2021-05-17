@@ -10,7 +10,12 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: whitesmoke;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+.vids {
+    filter: opacity(90%);
+    box-shadow: -5px 5px 5px #ff8000;
 }
 
 #bgvideo {
@@ -128,6 +133,8 @@ body {
     filter: opacity(90%);
     position: relative;
     z-index: -5;
+    filter: opacity(80%);
+    filter: contrast(60%);
 }
 
 #article-1-title {
