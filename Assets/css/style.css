@@ -14,8 +14,13 @@ body {
 }
 
 footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: 3px;
+    height: 5 00px;
     background-color: #003651;
     color: white;
 }
@@ -89,10 +94,9 @@ footer {
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 30px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
-    border-radius: 50%;
 }
 
 .fa:hover {
@@ -221,6 +225,40 @@ footer {
 }
 
 #rc-2-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    transform: translate (-50%, -50%);
+    z-index: 2;
+    text-shadow: -10px 10px 5px #003561;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#review-img-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    box-shadow: -5px 5px 5px #ff8000;
+    filter: opacity(90%);
+    position: relative;
+    z-index: -5;
+}
+
+#review-2-content {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-shadow: -10px 10px 5px #003561;
+}
+
+#rv-2-text {
     position: absolute;
     top: 20%;
     left: 10%;
