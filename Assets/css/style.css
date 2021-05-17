@@ -10,6 +10,7 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: whitesmoke;
+    overflow: hidden;
 }
 
 #bgvideo {
@@ -105,6 +106,40 @@ body {
 }
 
 #rc-1-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    transform: translate (-50%, -50%);
+    z-index: 2;
+    text-shadow: -10px 10px 5px #003561;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#article-1-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+    box-shadow: -5px 5px 5px #ff8000;
+    filter: opacity(90%);
+    position: relative;
+    z-index: -5;
+}
+
+#article-1-title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-shadow: -10px 10px 5px #003561;
+}
+
+#article-1-text {
     position: absolute;
     top: 20%;
     left: 10%;
