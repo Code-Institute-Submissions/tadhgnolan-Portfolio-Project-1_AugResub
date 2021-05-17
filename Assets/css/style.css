@@ -6,6 +6,12 @@
     border: none;
 }
 
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
 #bgvideo {
     position: fixed;
     top: 50%;
