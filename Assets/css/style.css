@@ -20,7 +20,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 3px;
-    height: 5 00px;
+    height: 5px;
     background-color: #003651;
     color: white;
 }
@@ -269,4 +269,8 @@ footer {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+#more {
+    display: none;
 }
