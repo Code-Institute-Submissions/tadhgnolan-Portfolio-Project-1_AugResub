@@ -10,7 +10,7 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: whitesmoke;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 footer {
@@ -57,38 +57,6 @@ footer {
     background-size: cover;
     filter: opacity(0.5);
     filter: contrast(30%);
-}
-
-#navbar {
-    position: fixed;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-}
-
-#menu {
-    font-size: 130%;
-    letter-spacing: 4px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    text-shadow: -10px 10px 3px whitesmoke;
-}
-
-.active {
-    text-shadow: -10px 10px 3px #ff8000;
 }
 
 .fa {
@@ -269,6 +237,70 @@ footer {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+/* [ON LARGE SCREENS] */
+/* (A) WRAPPER */
+#hamnav {
+    width: 100%;
+    background: #ff8000;
+}
+
+/* (B) HORIZONTAL MENU ITEMS */
+#hamitems {
+    display: flex;
+}
+
+#hamitems a {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    font: 2em Roboto, sans-serif;
+}
+
+#hamitems a:hover {
+    background: #003651;
+}
+
+/* (C) HIDE HAMBURGER */
+#hamnav label,
+#hamburger {
+    display: none;
+}
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px) {
+
+    /* (A) BREAK INTO VERTICAL MENU */
+    #hamitems a {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        border-top: 1px solid #003651;
+        z-index: 2;
+    }
+
+    /* (B) SHOW HAMBURGER ICON */
+    #hamnav label {
+        display: inline-block;
+        color: #0ac2f0;
+        background: #003651;
+        font-style: normal;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+
+    /* (C) TOGGLE SHOW/HIDE MENU */
+    #hamitems {
+        display: none;
+    }
+
+    #hamnav input:checked~#hamitems {
+        display: block;
+    }
 }
 
 #more {
