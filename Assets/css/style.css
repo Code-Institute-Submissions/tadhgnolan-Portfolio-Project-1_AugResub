@@ -10,7 +10,7 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color: whitesmoke;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 footer {
@@ -85,22 +85,19 @@ footer {
 
 #header {
     z-index: -5;
+    height: auto;
+    width: 100%;
 }
 
 #header-image {
     display: block;
+    margin-top: 1px;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
     height: auto;
     box-shadow: -5px 5px 5px #ff8000;
     filter: opacity(90%);
-}
-
-.container {
-    position: relative;
-    text-align: center;
-    color: whitesmoke;
 }
 
 #recent-content-img {
@@ -115,26 +112,35 @@ footer {
     z-index: -5;
 }
 
-#recent-content-1 {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    text-shadow: -10px 10px 5px #003561;
+#recent-content {
+    margin: 10px;
+    text-align: center;
+    width: 80%;
+    text-shadow: -10px 10px 5px #003651;
 }
 
-#rc-1-text {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    right: 10%;
-    transform: translate (-50%, -50%);
-    z-index: 2;
-    text-shadow: -10px 10px 5px #003561;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+#recent-content-text {
+    text-align: center;
+    width: 80%;
+    text-shadow: -10px 1-px 5px #003651;
+}
+
+#recent-content-2-img {
+    box-shadow: -5px 5px 5px #ff8000;
+    width: 80%;
+}
+
+#recent-content-2 {
+    margin: 10px;
+    text-align: center;
+    width: 80%;
+    text-shadow: -10px 10px 5px #003651;
+}
+
+#recent-content-2-text {
+    text-align: center;
+    width: 80%;
+    text-shadow: -10px 10px 5px #003651;
 }
 
 #article-1-img {
@@ -163,40 +169,6 @@ footer {
 #article-1-text {
     position: absolute;
     top: 60%;
-    left: 10%;
-    right: 10%;
-    transform: translate (-50%, -50%);
-    z-index: 2;
-    text-shadow: -10px 10px 5px #003561;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-#recent-content-2-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    height: auto;
-    box-shadow: -5px 5px 5px #ff8000;
-    filter: opacity(90%);
-    position: relative;
-    z-index: -5;
-}
-
-#recent-content-2 {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    text-shadow: -10px 10px 5px #003561;
-}
-
-#rc-2-text {
-    position: absolute;
-    top: 20%;
     left: 10%;
     right: 10%;
     transform: translate (-50%, -50%);
