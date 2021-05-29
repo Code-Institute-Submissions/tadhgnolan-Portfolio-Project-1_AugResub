@@ -15,14 +15,16 @@ body {
 
 footer {
     position: relative;
+    top: 325px;
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: justify;
     padding: 3px;
-    height: 5px;
-    background-color: #003651;
+    height: 50px;
+    background-color: #ff8000;
     color: white;
+    overflow: hidden;
 }
 
 .flex-container {
