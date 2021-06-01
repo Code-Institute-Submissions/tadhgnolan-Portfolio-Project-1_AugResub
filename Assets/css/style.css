@@ -85,8 +85,9 @@ footer {
     margin-right: auto;
     width: 80%;
     height: auto;
-    box-shadow: -5px 5px 5px #ff8000;
-    filter: opacity(90%);
+    border-left: 3px solid #ff8000;
+    border-radius: 15px;
+
 }
 
 /* STYLING FOR TEXT CONTENT [REVIEWS, ARTICLES, RECENT CONTENT] */
@@ -137,25 +138,30 @@ footer {
 #hamnav {
     width: 100%;
     background: #ff8000;
+    border-radius: 15px;
+    margin: auto;
 }
 
 /* (B) HORIZONTAL MENU ITEMS */
 #hamitems {
     display: flex;
+    border-radius: 15px;
 }
 
 #hamitems a {
     flex-grow: 1;
     flex-basis: 0;
     padding: 10px;
-    color: whitesmoke;
+    color: #012340;
     text-decoration: none;
     text-align: center;
     font: 2em Roboto, sans-serif;
+    border-radius: 15px;
 }
 
 #hamitems a:hover {
     background: #003651;
+    color: whitesmoke;
 }
 
 /* (C) HIDE HAMBURGER */
@@ -173,7 +179,7 @@ footer {
         display: block;
         width: 100%;
         border-top: 1px solid #003651;
-        z-index: 2;
+        font-family: Roboto, sans-serif;
     }
 
     /* (B) SHOW HAMBURGER ICON */
@@ -184,18 +190,34 @@ footer {
         font-style: normal;
         font-size: 1.2em;
         padding: 10px;
+        border-radius: 15px;
     }
 
     /* (C) TOGGLE SHOW/HIDE MENU */
     #hamitems {
         display: none;
+        border-radius: 15px;
     }
 
     #hamnav input:checked~#hamitems {
         display: block;
+        border-radius: 15px;
+        color: #003651;
     }
 }
 
 #more {
     display: none;
+}
+
+@media screen and (min-width: 1920px) {
+    .content-img {
+        width: 80%;
+        height: 50vh;
+        object-fit: cover;
+    }
+
+    p {
+        width: 60%;
+    }
 }
