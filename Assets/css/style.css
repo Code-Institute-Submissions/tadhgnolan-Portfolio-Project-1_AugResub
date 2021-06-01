@@ -21,6 +21,17 @@ a {
     color: #05dbf2;
 }
 
+pre {
+    font: x-large Roboto, sans-serif;
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
 footer {
     position: relative;
     left: 0;
@@ -54,6 +65,7 @@ footer {
     padding-right: 20%;
     padding-top: 1%;
     padding-bottom: 1%;
+    border-left: solid #ff8000;
     width: 40%;
     color: whitesmoke;
     background-color: #003651;
@@ -98,6 +110,7 @@ footer {
 }
 
 .author-text {
+    width: 99.5%;
     border: solid #024059;
     background-color: #012E40;
     color: whitesmoke;
@@ -148,7 +161,7 @@ footer {
     position: relative;
 }
 
-.content {
+/*.content {
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
@@ -159,12 +172,11 @@ footer {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-bottom: 0px;
-}
+} */
 
 .content-text {
-    text-align: justify;
     width: 60%;
-    margin-left: 10%;
+    margin-left: 9.8%;
     margin-right: 10%;
     margin-bottom: 5px;
     padding-left: 10%;
@@ -177,7 +189,44 @@ footer {
     border-bottom-right-radius: 15px;
 }
 
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50);
+    filter: opacity(0.5);
+}
 
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #012340;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.twitter {
+    background: #05dbf2;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.youtube {
+    background: #f27405;
+    color: whitesmoke;
+    border-radius: 15px;
+}
 
 /* [ON LARGE SCREENS] */
 /* (A) WRAPPER */
