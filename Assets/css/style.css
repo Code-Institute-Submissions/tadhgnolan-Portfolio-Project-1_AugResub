@@ -100,16 +100,32 @@ footer {
 }
 
 .content {
-    margin: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
     text-align: center;
     width: 80%;
-    text-shadow: -10px 10px 5px #003651;
+    color: whitesmoke;
+    border-left: 3px solid #ff8000;
+    background-color: #003651;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 0px;
 }
 
 .content-text {
-    text-align: center;
-    width: 80%;
-    text-shadow: -10px 1-px 5px #003651;
+    text-align: justify;
+    width: 60%;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-bottom: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    color: whitesmoke;
+    border-left: 3px solid #f27405;
+    background-color: #003651;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 
