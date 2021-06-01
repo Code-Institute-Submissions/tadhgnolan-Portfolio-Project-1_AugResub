@@ -46,7 +46,9 @@ button {
     margin-top: 5%;
     margin-left: 5%;
     border-radius: 15px;
-    font: xxx-large bold Roboto, sans-serif;
+    font-family: Roboto, sans-serif;
+    font-size: xxx-large;
+    font-weight: bold;
 }
 
 button:hover {
@@ -77,6 +79,7 @@ footer {
     min-height: calc(100vh - 100px);
 }
 
+/* STYLING FOR PAGE TITLE */
 .title {
     width: 100%;
     margin-right: auto;
@@ -86,6 +89,7 @@ footer {
 
 }
 
+/* STYLING FOR PAGE TITLE TEXT */
 .page-title {
     text-align: center;
     font-family: Roboto, sans-serif;
@@ -103,12 +107,14 @@ footer {
     margin-bottom: 0px;
 }
 
+/* FLEXBOX */
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     position: relative;
 }
 
+/* FLEXBOX FOR VIDEO PAGE */
 .flex-container-2 {
     display: flex;
     align-items: stretch;
@@ -127,6 +133,7 @@ footer {
     border-radius: 15px;
 }
 
+/* STYLING FOR YOUTUBE VIDEOS */
 .vids {
     position: relative;
     border-left: solid 5px #ff8000;
@@ -136,6 +143,7 @@ footer {
     margin: auto;
 }
 
+/* NAME OF SITE AUTHOR */
 .author-text {
     border: solid #024059;
     background-color: #012E40;
@@ -146,6 +154,7 @@ footer {
     border-radius: 15px;
 }
 
+/* CONTACT EMAIL */
 .email-text {
     border: solid #024059;
     background-color: #012340;
@@ -156,7 +165,7 @@ footer {
 }
 
 
-
+/* HEADER/HERO IMAGE */
 #header {
     height: auto;
     width: 100%;
