@@ -58,16 +58,15 @@ footer {
     position: relative;
     left: 0;
     bottom: 0;
+    height: 50px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 5px;
     text-align: center;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding: 3px;
     padding-top: 2%;
     padding-bottom: 4%;
-    height: 50px;
     background-color: #ff8000;
     color: white;
     overflow: hidden;
@@ -285,6 +284,25 @@ footer {
 
 /* [ON SMALL SCREENS] */
 @media screen and (max-width: 768px) {
+    .body {
+        overflow-x: hidden;
+    }
+
+    .flex-container-2 {
+        padding: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+    }
+
+    .vids {
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
+    }
 
     /* (A) BREAK INTO VERTICAL MENU */
     #hamitems a {
@@ -319,7 +337,7 @@ footer {
     }
 }
 
-#more {
+.more {
     display: none;
 }
 
