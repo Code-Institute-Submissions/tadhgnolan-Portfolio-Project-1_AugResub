@@ -17,18 +17,28 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    color: #05dbf2;
+}
+
 footer {
     position: relative;
-    top: 325px;
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: justify;
-    padding: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 2%;
+    padding-bottom: 4%;
     height: 50px;
     background-color: #ff8000;
     color: white;
     overflow: hidden;
+    border-radius: 15px;
 }
 
 .wrapper {
@@ -87,27 +97,26 @@ footer {
     margin: auto;
 }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
+.author-text {
+    border: solid #024059;
+    background-color: #012E40;
+    color: whitesmoke;
+    padding-top: 0.3%;
+    padding-bottom: 0.5%;
+    margin-bottom: 0.5%;
+    border-radius: 15px;
 }
 
-.fa:hover {
-    opacity: 0.7;
+.email-text {
+    border: solid #024059;
+    background-color: #012340;
+    color: red;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    border-radius: 15px;
 }
 
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
 
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
 
 #header {
     z-index: -5;
