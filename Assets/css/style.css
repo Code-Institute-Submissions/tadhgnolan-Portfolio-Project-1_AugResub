@@ -8,6 +8,7 @@
     overflow-x: hidden;
 }
 
+
 body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
@@ -88,6 +89,7 @@ footer {
     filter: opacity(90%);
 }
 
+/* STYLING FOR TEXT CONTENT [REVIEWS, ARTICLES, RECENT CONTENT] */
 .content-img {
     display: block;
     margin-left: auto;
@@ -115,8 +117,8 @@ footer {
 .content-text {
     text-align: justify;
     width: 60%;
-    /* margin-left: 10%;
-    margin-right: 10%; */
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 5px;
     padding-left: 10%;
     padding-right: 10%;
