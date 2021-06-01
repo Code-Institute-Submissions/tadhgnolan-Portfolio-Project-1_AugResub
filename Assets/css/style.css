@@ -88,118 +88,31 @@ footer {
     filter: opacity(90%);
 }
 
-#recent-content-img {
+.content-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
     height: auto;
-    box-shadow: -5px 5px 5px #ff8000;
-    filter: opacity(90%);
+    border-left: 3px solid #ff8000;
+    border-radius: 15px;
     position: relative;
-    z-index: -5;
 }
 
-#recent-content {
+.content {
     margin: 10px;
     text-align: center;
     width: 80%;
     text-shadow: -10px 10px 5px #003651;
 }
 
-#recent-content-text {
+.content-text {
     text-align: center;
     width: 80%;
     text-shadow: -10px 1-px 5px #003651;
 }
 
-#recent-content-2-img {
-    box-shadow: -5px 5px 5px #ff8000;
-    width: 80%;
-}
 
-#recent-content-2 {
-    margin: 10px;
-    text-align: center;
-    width: 80%;
-    text-shadow: -10px 10px 5px #003651;
-}
-
-#recent-content-2-text {
-    text-align: center;
-    width: 80%;
-    text-shadow: -10px 10px 5px #003651;
-}
-
-#article-1-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    height: auto;
-    box-shadow: -5px 5px 5px #ff8000;
-    filter: opacity(90%);
-    position: relative;
-    z-index: -5;
-    filter: opacity(80%);
-    filter: contrast(60%);
-}
-
-#article-1-title {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    text-shadow: -10px 10px 5px #003561;
-}
-
-#article-1-text {
-    position: absolute;
-    top: 60%;
-    left: 10%;
-    right: 10%;
-    transform: translate (-50%, -50%);
-    z-index: 2;
-    text-shadow: -10px 10px 5px #003561;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-#review-img-2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    height: auto;
-    box-shadow: -5px 5px 5px #ff8000;
-    filter: opacity(90%);
-    position: relative;
-    z-index: -5;
-}
-
-#review-2-content {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    text-shadow: -10px 10px 5px #003561;
-}
-
-#rv-2-text {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    right: 10%;
-    transform: translate (-50%, -50%);
-    z-index: 2;
-    text-shadow: -10px 10px 5px #003561;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
 
 /* [ON LARGE SCREENS] */
 /* (A) WRAPPER */
