@@ -1,3 +1,5 @@
+/* PLEASE VIEW README FILE AT https://github.com/tadhgnolan/Portfolio-Project-1/blob/master/README.md FOR LIST OF CODE USED FROM OTHER SITES */
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:,300,400,500);
 
 * {
@@ -21,6 +23,8 @@ a {
     color: #05dbf2;
 }
 
+
+/* PARAGRAPH STYLING */
 p {
     font: x-large Roboto, sans-serif;
     word-wrap: normal;
@@ -36,6 +40,7 @@ h2 {
     font-size: xx-large;
 }
 
+/* READMORELESS BUTTON STYLING */
 button {
     flex-basis: 100%;
     float: inline-end;
@@ -56,6 +61,7 @@ button:hover {
     color: whitesmoke;
 }
 
+/* FOOTER STYLING */
 footer {
     position: relative;
     left: 0;
