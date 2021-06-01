@@ -1,4 +1,4 @@
-function myFunction(dotsId, moreId, btnId) {
+function openText(dotsId, moreId, btnId) {
     var dots = document.getElementById(dotsId);
     var moreText = document.getElementById(moreId);
     var btnText = document.getElementById(btnId);
