@@ -10,7 +10,7 @@ ___
 A deployed link to the website can be found [here](https://tadhgnolan.github.io/Portfolio-Project-1/).
 ![Preview](https://github.com/tadhgnolan/Portfolio-Project-1/blob/master/Assets/readmeassets/landingsample.PNG)
 
-Initial mockup wirframe can be found [here](https://github.com/tadhgnolan/Portfolio-Project-1/blob/master/Assets/readmeassets/sup%20of%20gaming%20initial%20mockup.pdf)
+Initial mockup wireframe can be found [here](https://github.com/tadhgnolan/Portfolio-Project-1/blob/master/Assets/readmeassets/sup%20of%20gaming%20initial%20mockup.pdf)
 
 
 
