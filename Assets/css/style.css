@@ -158,7 +158,6 @@ footer {
 
 
 #header {
-    z-index: -5;
     height: auto;
     width: 100%;
 }
@@ -176,6 +175,8 @@ footer {
 }
 
 /* STYLING FOR TEXT CONTENT [REVIEWS, ARTICLES, RECENT CONTENT] */
+
+/* ARTICLE IMAGES */
 .content-img {
     display: block;
     margin-left: auto;
@@ -187,12 +188,13 @@ footer {
     position: relative;
 }
 
+/* ARTICLE TITLE */
 .content {
 
     width: 100%;
 }
 
-
+/* WRITTEN ARTICLE TEXT CONTENT */
 .content-text {
     align-content: center;
     width: 80%;
@@ -208,6 +210,8 @@ footer {
     border-radius: 15px;
 }
 
+
+/* FLOATING ICON BAR WITH SOCIAL MEDIA LINKS */
 .icon-bar {
     position: fixed;
     top: 50%;
