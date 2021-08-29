@@ -124,7 +124,7 @@ This functionality testing involved:
 
 - Footer text won't display properly on iPhone 5, Moto G4 & Samsung S5. Was unable to find cause.
 
-- Unable to get readmoreless button to function with more than one '<p>' tag. 
+- Unable to get readmoreless button to function with more than one `<p>` tag. 
     
 - Some issues with border and margin alignment. All were resolved.
     
@@ -190,7 +190,7 @@ ___
     
 Review with a working developer.
     
-Meetings with Mentor at start, midway and end of project with action list. 
+Meetings with Mentor at start, midway and end of project, setting actions for next session. 
     
 ___    
 
