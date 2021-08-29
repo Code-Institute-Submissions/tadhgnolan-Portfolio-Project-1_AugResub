@@ -122,15 +122,18 @@ Used Adobe Color Wheel to find matching hues & avoid issues for colorblind users
 
 All testing performed before and after each commit.
 
-Repeated real world testing performed with Google Pixel 3aXL (2160 × 1080px)
+Repeated real world testing performed with Google Pixel 3aXL (2160 × 1080px):
 ![Example image pixel 3a](Assets/readmeassets/pixel_3a_image.png)
-, Nokia 3 (720 x 1280), Asus Nexus 7 (1920 x 1200px) & Desktop PC (1920 x 1080px + 2560 × 1440) representing a mixture of age plus hardware capability & were readily available.
 
-In Chrome Dev Tools, tested repeatedly with all available presets
+As well as Nokia 3 (720 x 1280), Asus Nexus 7 (1920 x 1200px) & Desktop PC (1920 x 1080px + 2560 × 1440) representing a mixture of age plus hardware capability & were readily available.
+
+In Chrome Dev Tools, tested repeatedly with all available presets:
+![Example image chrome dev](Assets/readmeassets/chrome_dev_mobile_test.PNG)
 
 This functionality testing involved:
 
-- Verifying all navbar & other links functioned as expected.
+- Verifying all navbar & other links functioned as expected (social and video links not shown as they opened in full window, but did function):
+![dev_tools_mobile_test](Assets/readmeassets/dev_tools_mobile_test.gif)
 
 - Using Chrome Dev Tools Elements tab to test out small styling changes before adding.
 
