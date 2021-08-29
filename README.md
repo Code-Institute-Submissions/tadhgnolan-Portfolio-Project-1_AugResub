@@ -1,6 +1,6 @@
 # **Sup of Gaming**
 ### HTML + CSS Milestone Project - Code Institute - Tadhg Nolan.
-![Sup of Gaming](Assets/images/responsive_mockup.PNG)
+![Sup of Gaming](Assets/readmeassets/responsive_mockup.PNG)
 
 A deployed link to the website can be found here: [Live Site](https://tadhgnolan.github.io/Portfolio-Project-1/)
 
@@ -9,7 +9,7 @@ A deployed link to the website can be found here: [Live Site](https://tadhgnolan
 2. [Technologies](#technologies)
 3. [Testing](#testing)
 4. [Credits](#credits)
-5. [Review_Process](#review_process)
+5. [Review_Process](#review process)
 6. [Deployment](#deployment)
 7. [Acknowledgements](#acknowledgements)
 
@@ -116,7 +116,7 @@ This functionality testing involved:
 - Tested html & CSS at https://validator.w3.org. (srcset attribute was being used unnecessarily. Used auto as a value for padding-left property. Removed. Used xxx-large as a value for font property instead of font-size. Rectified).
 
 - Testing with Lighthouse. Final score 74. (main issue was due to large image sizes. Unfortunately I was unable to compress images further without pixelization).
-[Click Here](https://github.com/tadhgnolan/Portfolio-Project-1/blob/master/Assets/readmeassets/lighthousescore.PNG)
+![Light House Score](Assets/readmeassets/lighthousescore.PNG)
 
 ### Issues Encountered + Bugs
 
@@ -124,7 +124,7 @@ This functionality testing involved:
 
 - Footer text won't display properly on iPhone 5, Moto G4 & Samsung S5. Was unable to find cause.
 
-- Unable to get readmoreless button to function with more than one <p> tag. 
+- Unable to get readmoreless button to function with more than one '<p>' tag. 
     
 - Some issues with border and margin alignment. All were resolved.
     
