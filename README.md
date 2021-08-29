@@ -2,14 +2,14 @@
 ### HTML + CSS Milestone Project - Code Institute - Tadhg Nolan.
 ![Sup of Gaming](Assets/images/responsive_mockup.PNG)
 
-A deployed link to the website can be found here: [Live Site](https://tadhgnolan.github.io/Portfolio-Project-1/).
+A deployed link to the website can be found here: [Live Site](https://tadhgnolan.github.io/Portfolio-Project-1/)
 
 # Table of Contents
 1. [Intro](#intro)
 2. [Technologies](#technologies)
 3. [Testing](#testing)
 4. [Credits](#credits)
-5. [Review Process](#review_process)
+5. [Review_Process](#review_process)
 6. [Deployment](#deployment)
 7. [Acknowledgements](#acknowledgements)
 
@@ -195,16 +195,30 @@ Meetings with Mentor at start, midway and end of project with action list.
 ___    
 
 ## Deployment
-_On GitHub:_ Checked that branch was present in repository. Navigated to site repository on GitHub. Clicked settings under repository name. Selected master branch for GitHub Pages under source drop-down menu.
-
-_If you wish to run this project locally:_
-
-```
-1. Click clone / download
-2. Choose your preffered method (Zip or github desktop)
-3. Open in your preffered IDE
-4. Run on local server
-```    
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  
+- To clone to a local machine follow these steps:
+  
+  - On GitHub, navigate to the main page of the repository.
+  - Above the list of files, click download Code.
+  - To clone the repository using HTTPS, under "Clone with HTTPS", click the clipboard icon.
+  - Open Git Bash.
+  - Change the current working directory to the location where you want the cloned directory.
+  - Type git clone, and then paste the URL you copied earlier.
+    `$ git clone https://github.com/tadhgnolan/Portfolio-Project-1`
+  - Press Enter to create your local clone. 
+  	`$ git clone https://github.com/tadhgnolan/Portfolio-Project-1`
+    ``> Cloning into `Spoon-Knife`...``
+    `> remote: Counting objects: 10, done.`
+    `> remote: Compressing objects: 100% (8/8), done.`
+    `> remove: Total 10 (delta 1), reused 10 (delta 1)`
+    `> Unpacking objects: 100% (10/10), done.`
+   
+  
+ - The live link can be found here - https://tadhgnolan.github.io/Portfolio-Project-1/
 ___
 
 ## Acknowledgements
