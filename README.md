@@ -45,15 +45,17 @@ End users will be consumers looking for opinions regarding the quality of video 
 
 Home/landing area - This area should be welcoming with a brand or game relevant image and direct users towards the articles (Denoted by article name and related image behind text).
 
-Navbar - Hamburger menu for easy access on mobile devices. 
+Navbar - Standard navbar at top of page to allow users to easily access information. Switches to hamburger menu for easy access on mobile devices. 
 
-Articles - Links directly to Articles section with articles listed in chronological order.
+Articles - Links directly to Articles section with articles containing gaming discussion listed in chronological order.
 
-Videos - Links directly to Videos section with videos displayed in chronological order.
+Videos - Links directly to Videos section with the content creators videos displayed in chronological order.
 
 Reviews - Links directly to Reviews section listing written video game reviews in chronological order.
 
-Contact/Socials - Email form and social media links if users wish to contact or follow the content creator. 
+Contact/Socials - Email and social media links which open in new tab if users wish to contact or follow the content creator. 
+
+Readmoreless script to allow expandable text & reduce necessary page space for each article. Written in JavaScript.
 
 ### Existing Features
 
@@ -67,8 +69,9 @@ Videos
 
 Contacts/Socials
 
-Readmoreless script to allow expandable text & reduce necessary page space for each article. Written in JavaScript. 
+Readmoreless script
 ![Readmoreless image](Assets/readmeassets/readmoreless_image.gif)
+![Readmoreless code](Assets/readmeassets/readmoreless_code.PNG)
 
 ### Future Features
 
