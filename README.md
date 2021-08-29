@@ -67,6 +67,9 @@ Videos
 
 Contacts/Socials
 
+Readmorereadless script to allow expandable text & reduce necessary page space for each article. Written in JavaScript. 
+![Readmoreless image](Assets/readmeassets/readmoreless_image.gif)
+
 ### Future Features
 
 Functioning contact form. 
@@ -88,7 +91,7 @@ Used Adobe Color Wheel to find matching hues & avoid issues for colorblind users
 
 ## Technologies
 
-* [HTML5](https://html.spec.whatwg.org/multipage/)
+* [HTML5](https://html.spec.whatwg.org/multipage/) - Structure
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [JavaScript](https://www.javascript.com/)
 - [Gitpod](https://www.gitpod.io/about/)
