@@ -60,33 +60,33 @@ Readmoreless script to allow expandable text & reduce necessary page space for e
 ### Existing Features
 
 Navbar
-___
+
 ![Navbar desktop image](Assets/readmeassets/navbar_desktop_image.gif)
 ![Navbar mobile image](Assets/readmeassets/navbar_mobile_image.gif)
 ![Navbar code](Assets/readmeassets/navbar_code.PNG)
 ___
 Articles
-___
+
 ![]()
 ![]()
 ___
 Reviews
-___
+
 ![]()
 ![]()
 ___
 Videos
-___
+
 ![]()
 ![]()
 ___
 Contacts/Socials
-___
+
 ![]()
 ![]()
 ___
 Readmoreless script
-___
+
 ![Readmoreless image](Assets/readmeassets/readmoreless_image.gif)
 ![Readmoreless code](Assets/readmeassets/readmoreless_code.PNG)
 ___
