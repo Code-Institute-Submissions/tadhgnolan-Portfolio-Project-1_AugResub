@@ -45,7 +45,7 @@ End users will be consumers looking for opinions regarding the quality of video 
 
 Home/landing area - This area should be welcoming with a brand or game relevant image and direct users towards the articles (Denoted by article name and related image behind text).
 
-Navbar - Standard navbar at top of page to allow users to easily access information. Switches to hamburger menu for easy access on mobile devices. 
+Navbar - Standard navbar at top of page to allow users to easily access information. Highlights in contrasting color on mouse hover. Switches to hamburger menu for easy access on mobile devices. 
 
 Articles - Links directly to Articles section with articles containing gaming discussion listed in chronological order.
 
@@ -60,15 +60,21 @@ Readmoreless script to allow expandable text & reduce necessary page space for e
 ### Existing Features
 
 Navbar
-
+![Navbar desktop image](Assets/readmeassets/navbar_desktop_image.gif)
+![Navbar mobile image](Assets/readmeassets/navbar_mobile_image.gif)
+![]()
 Articles
-
+![]()
+![]()
 Reviews
-
+![]()
+![]()
 Videos
-
+![]()
+![]()
 Contacts/Socials
-
+![]()
+![]()
 Readmoreless script
 ![Readmoreless image](Assets/readmeassets/readmoreless_image.gif)
 ![Readmoreless code](Assets/readmeassets/readmoreless_code.PNG)
@@ -77,9 +83,9 @@ Readmoreless script
 
 Functioning contact form. 
 
-Working hero video
+Working hero video.
 
-Add Bootstrap to 
+Add Bootstrap to improve layout.
 
 ### Optimisation
 Used image software (G.I.M.P.) and https://tinyjpg.com/ to compress image file size.
