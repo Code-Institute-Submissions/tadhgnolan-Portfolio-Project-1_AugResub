@@ -9,7 +9,7 @@ A deployed link to the website can be found here: [Live Site](https://tadhgnolan
 2. [Technologies](#technologies)
 3. [Testing](#testing)
 4. [Credits](#credits)
-5. [Review_Process](#review)
+5. [Review_Process](#review_process)
 6. [Deployment](#deployment)
 7. [Acknowledgements](#acknowledgements)
 
@@ -186,7 +186,7 @@ ___
 All images were taken by and are personally owned by me.
 ___   
 
-## Review Process
+## Review_Process
     
 Review with a working developer.
     
