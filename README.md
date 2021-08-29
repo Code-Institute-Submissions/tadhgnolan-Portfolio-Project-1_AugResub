@@ -63,22 +63,27 @@ Navbar
 ![Navbar desktop image](Assets/readmeassets/navbar_desktop_image.gif)
 ![Navbar mobile image](Assets/readmeassets/navbar_mobile_image.gif)
 ![Navbar code](Assets/readmeassets/navbar_code.PNG)
+___
 Articles
 ![]()
 ![]()
+___
 Reviews
 ![]()
 ![]()
+___
 Videos
 ![]()
 ![]()
+___
 Contacts/Socials
 ![]()
 ![]()
+___
 Readmoreless script
 ![Readmoreless image](Assets/readmeassets/readmoreless_image.gif)
 ![Readmoreless code](Assets/readmeassets/readmoreless_code.PNG)
-
+___
 ### Future Features
 
 Functioning contact form. 
