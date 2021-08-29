@@ -67,7 +67,7 @@ Videos
 
 Contacts/Socials
 
-Readmorereadless script to allow expandable text & reduce necessary page space for each article. Written in JavaScript. 
+Readmoreless script to allow expandable text & reduce necessary page space for each article. Written in JavaScript. 
 ![Readmoreless image](Assets/readmeassets/readmoreless_image.gif)
 
 ### Future Features
