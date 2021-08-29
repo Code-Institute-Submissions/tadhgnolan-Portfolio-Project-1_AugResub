@@ -1,16 +1,28 @@
 # **Sup of Gaming**
 ### HTML + CSS Milestone Project - Code Institute - Tadhg Nolan.
-
-### Intro
 ![Sup of Gaming](Assets/images/responsive_mockup.PNG)
+
+A deployed link to the website can be found here: [Live Site](https://tadhgnolan.github.io/Portfolio-Project-1/).
+
+# Table of Contents
+1. [Intro](#intro)
+2. [Technologies](#technologies)
+3. [Testing](#testing)
+4. [Credits](#credits)
+5. [Review Process](#review_process)
+6. [Deployment](#deployment)
+7. [Acknowledgements](#acknowledgements)
+
+## Intro
+
 The owner requires a gaming review and opinion website which will also link to their YouTube channel.
 
 The purpose is to promote video game opinions, articles, written and video reviews in an easy to interpret format. 
 ___
 ### Showcase
 
-A deployed link to the website can be found [here](https://tadhgnolan.github.io/Portfolio-Project-1/).
-![Preview](https://github.com/tadhgnolan/Portfolio-Project-1/blob/master/Assets/readmeassets/landingsample.PNG)
+
+
 
 Initial mockup wireframe can be found [here](https://github.com/tadhgnolan/Portfolio-Project-1/blob/master/Assets/readmeassets/sup%20of%20gaming%20initial%20mockup.pdf)
 
@@ -73,7 +85,17 @@ Improved UX by adding smooth scrolling.
 Used Adobe Color Wheel to find matching hues & avoid issues for colorblind users.
 
 ---
-### Testing
+
+## Technologies
+
+* [HTML5](https://html.spec.whatwg.org/multipage/)
+* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [JavaScript](https://www.javascript.com/)
+- [Gitpod](https://www.gitpod.io/about/)
+	- IDE used to write and deploy code.
+---
+
+## Testing
 
 All testing performed before and after each commit.
 
@@ -107,6 +129,11 @@ This functionality testing involved:
 - Some issues with border and margin alignment. All were resolved.
     
 ___
+
+## Credits
+
+---
+
 ### Code Used From Other Sites + Tutorials
 
 https://w3collective.com/fullscreen-video-background/
@@ -154,23 +181,20 @@ https://www.w3schools.com
     
 https://stackoverflow.com
 ___
-### Technologies Used
 
-* [HTML5](https://html.spec.whatwg.org/multipage/)
-* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [JavaScript](https://www.javascript.com/)
-- [Gitpod](https://www.gitpod.io/about/)
-	- IDE used to write and deploy code.
-    
-___
-### Review Process
+### Content
+All images were taken by and are personally owned by me.
+___   
+
+## Review Process
     
 Review with a working developer.
     
 Meetings with Mentor at start, midway and end of project with action list. 
     
 ___    
-**Deployment**
+
+## Deployment
 _On GitHub:_ Checked that branch was present in repository. Navigated to site repository on GitHub. Clicked settings under repository name. Selected master branch for GitHub Pages under source drop-down menu.
 
 _If you wish to run this project locally:_
@@ -182,10 +206,8 @@ _If you wish to run this project locally:_
 4. Run on local server
 ```    
 ___
-### Content
-All images were taken by and are personally owned by me.
-___   
-### Acknowledgements
+
+## Acknowledgements
     
 Huge thanks to my brother Cormac Nolan (a working developer) for much advice and feedback over many sessions and to my mentor Arnold Kyeza for his invaluable feedback at key stages throughout the project. 
     
