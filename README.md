@@ -62,7 +62,7 @@ Readmoreless script to allow expandable text & reduce necessary page space for e
 Navbar
 ![Navbar desktop image](Assets/readmeassets/navbar_desktop_image.gif)
 ![Navbar mobile image](Assets/readmeassets/navbar_mobile_image.gif)
-![]()
+![Navbar code](Assets/readmeassets/navbar_code.PNG)
 Articles
 ![]()
 ![]()
