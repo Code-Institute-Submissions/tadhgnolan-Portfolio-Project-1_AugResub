@@ -1,6 +1,8 @@
 # **Sup of Gaming**
 ### HTML + CSS Milestone Project - Code Institute - Tadhg Nolan.
 
+### Intro
+![Sup of Gaming](https://tadhgnolan.github.io/Portfolio-Project-1/)
 The owner requires a gaming review and opinion website which will also link to their YouTube channel.
 
 The purpose is to promote video game opinions, articles, written and video reviews in an easy to interpret format. 
