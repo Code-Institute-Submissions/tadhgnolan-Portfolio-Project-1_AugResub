@@ -68,17 +68,14 @@ ___
 Articles
 
 ![Articles image](Assets/readmeassets/articles_image.png)
-![]()
 ___
 Reviews
 
 ![Reviews image](Assets/readmeassets/reviews_image.png)
-![]()
 ___
 Videos
 
 ![Videos image](Assets/readmeassets/videos_image.png)
-![]()
 ___
 Contacts/Socials
 
@@ -105,15 +102,18 @@ Used Lighthouse testing to suggest further action.
 
 Improved UX by adding smooth scrolling.
 
-Used Adobe Color Wheel to find matching hues & avoid issues for colorblind users.
+Used Adobe Color Wheel to find matching hues & avoid issues for colorblind users - https://helpx.adobe.com/creative-cloud/adobe-color-accessibility-tools.html
 
 ---
 
 ## Technologies
 
-* [HTML5](https://html.spec.whatwg.org/multipage/) - Structure
-* [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [JavaScript](https://www.javascript.com/)
+- [HTML5](https://html.spec.whatwg.org/multipage/) 
+  - Structure.
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  - Styling.
+- [JavaScript](https://www.javascript.com/)
+  - Readmoreless script to collapse text.
 - [Gitpod](https://www.gitpod.io/about/)
 	- IDE used to write and deploy code.
 ---
@@ -264,6 +264,8 @@ ___
    
   
  - The live link can be found here - https://tadhgnolan.github.io/Portfolio-Project-1/
+
+ - Repository can be found here -https://github.com/tadhgnolan/Portfolio-Project-1
 ___
 
 ## Acknowledgements
