@@ -96,6 +96,7 @@ Functioning contact form.
 Working hero video.
 
 Add Bootstrap to improve layout.
+___
 
 ### Optimisation
 Used image software (G.I.M.P.) and https://tinyjpg.com/ to compress image file size.
