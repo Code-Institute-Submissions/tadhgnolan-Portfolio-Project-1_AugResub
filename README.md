@@ -53,7 +53,7 @@ Videos - Links directly to Videos section with the content creators videos displ
 
 Reviews - Links directly to Reviews section listing written video game reviews in chronological order.
 
-Contact/Socials - Email and social media links which open in new tab if users wish to contact or follow the content creator. 
+Contact/Socials - Floating social media links which open in new tab if users wish to contact or follow the content creator. Email link in footer. 
 
 Readmoreless script to allow expandable text & reduce necessary page space for each article. Written in JavaScript.
 
@@ -79,8 +79,15 @@ Videos
 ___
 Contacts/Socials
 
-![]()
-![]()
+![Socials image](Assets/readmeassets/socials_image.PNG)
+
+![Socials code](Assets/readmeassets/socials_code.PNG)
+
+![Socials code 2](Assets/readmeassets/socials_code_2.PNG)
+
+![Email image](Assets/readmeassets/email_image.PNG)
+
+![Email code](Assets/readmeassets/email_code.PNG)
 ___
 Readmoreless script
 
@@ -120,7 +127,7 @@ Used Adobe Color Wheel to find matching hues & avoid issues for colorblind users
 
 ## Testing
 
-All testing performed before and after each commit. Following examples do not show entire process.
+All testing performed before and after each major commit. Following examples do not show entire process.
 
 Repeated real world testing performed with Google Pixel 3aXL (2160 × 1080px):
 
