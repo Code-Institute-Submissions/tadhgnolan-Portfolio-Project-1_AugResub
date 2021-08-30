@@ -19,14 +19,9 @@ The owner requires a gaming review and opinion website which will also link to t
 
 The purpose is to promote video game opinions, articles, written and video reviews in an easy to interpret format. 
 ___
-### Showcase
-
-
-
+### Mockup
 
 Initial mockup wireframe can be found [here](https://github.com/tadhgnolan/Portfolio-Project-1/blob/master/Assets/readmeassets/sup%20of%20gaming%20initial%20mockup.pdf)
-
-
 
 ### User Stories
 
