@@ -142,15 +142,15 @@ This functionality testing involved:
 
 ![Dev tools element test](Assets/readmeassets/dev_tools_elements_test.gif)
 
-- Checking that fonts scaled correctly for each display size.
+- Checking that fonts scaled correctly for each display size:
 
 ![Dev tools font test](Assets/readmeassets/dev_tools_font_test.gif)
 
-- Checking for overflow.
+- Checking for overflow:
 
 ![Dev tools overflow test](Assets/readmeassets/dev_tools_overflow_test.gif)
 
-- Tested html & CSS at https://validator.w3.org. (srcset attribute was being used unnecessarily. Used auto as a value for padding-left property. Removed. Used xxx-large as a value for font property instead of font-size. Rectified).
+- Tested html & CSS at https://validator.w3.org. (srcset attribute was being used unnecessarily. Used auto as a value for padding-left property. Removed. Used xxx-large as a value for font property instead of font-size. Rectified):
 
 ![Html validator](Assets/readmeassets/validator_html.PNG)
 
@@ -165,7 +165,9 @@ This functionality testing involved:
 
 - Video background had useability issue due to flashing light and was removed.
 
-- Footer text won't display properly on iPhone 5, Moto G4 & Samsung S5. Was unable to find cause.
+- Footer text won't display properly on iPhone 5, Moto G4 & Samsung S5. Was unable to find cause:
+
+![iPhone 5 overflow](Assets/readmeassets/iphone_5_overflow.PNG)
 
 - Unable to get readmoreless button to function with more than one `<p>` tag. 
     
