@@ -152,6 +152,12 @@ This functionality testing involved:
 
 - Tested html & CSS at https://validator.w3.org. (srcset attribute was being used unnecessarily. Used auto as a value for padding-left property. Removed. Used xxx-large as a value for font property instead of font-size. Rectified).
 
+![Html validator](Assets/readmeassets/validator_html.PNG)
+
+![CSS validator](Assets/readmeassets/validator_css_1.PNG)
+
+![CSS validator 2](Assets/readmeassets/validator_css_2.PNG)
+
 - Testing with Lighthouse. Final score 74. (main issue was due to large image sizes. Unfortunately I was unable to compress images further without pixelization).
 ![Light House Score](Assets/readmeassets/lighthousescore.PNG)
 
