@@ -67,17 +67,17 @@ Navbar
 ___
 Articles
 
-![]()
+![Articles image](Assets/readmeassets/articles_image.png)
 ![]()
 ___
 Reviews
 
-![]()
+![Reviews image](Assets/readmeassets/reviews_image.png)
 ![]()
 ___
 Videos
 
-![]()
+![Videos image](Assets/readmeassets/videos_image.png)
 ![]()
 ___
 Contacts/Socials
